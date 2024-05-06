@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "Homa'sWebsite",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "A beautiful portfolio!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -11,21 +11,14 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
-  },
   "keywords": [],
-  "author": "Jacobo Martinez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
-  },
+  "author": "Homa Banazadeh",
   "homepage": "https://homayoo-n.github.io/MyPersonalWebsite",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.7.0",
+    "@parcel/transformer-glsl": "^2.12.0",
+    "@parcel/transformer-sass": "^2.12.0",
     "gh-pages": "^5.0.0",
-    "parcel": "^2.7.0",
+    "parcel": "^2.12.0",
     "prettier": "^2.7.1"
   },
   "dependencies": {
